@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://photin1a.github.io/posts/40885eeb.html</loc>
+    
+    <lastmod>2025-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://photin1a.github.io/tags/index.html</loc>
     
     <lastmod>2025-01-07</lastmod>
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://photin1a.github.io/box/nav/index.html</loc>
+    <loc>https://photin1a.github.io/box/gallery/index.html</loc>
     
     <lastmod>2025-01-07</lastmod>
     
@@ -56,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://photin1a.github.io/box/gallery/index.html</loc>
+    <loc>https://photin1a.github.io/box/nav/index.html</loc>
     
     <lastmod>2025-01-07</lastmod>
     
@@ -131,6 +140,24 @@
     <loc>https://photin1a.github.io/site/time/index.html</loc>
     
     <lastmod>2025-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://photin1a.github.io/posts/58f47eff.html</loc>
+    
+    <lastmod>2025-01-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://photin1a.github.io/posts/41c0672e.html</loc>
+    
+    <lastmod>2025-01-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
