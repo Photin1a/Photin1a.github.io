@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://photin1a.github.io/box/gallery/index.html</loc>
+    <loc>https://photin1a.github.io/box/nav/index.html</loc>
     
     <lastmod>2025-01-07</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://photin1a.github.io/box/nav/index.html</loc>
+    <loc>https://photin1a.github.io/box/gallery/index.html</loc>
     
     <lastmod>2025-01-07</lastmod>
     
@@ -158,15 +158,6 @@
     <loc>https://photin1a.github.io/posts/41c0672e.html</loc>
     
     <lastmod>2025-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://photin1a.github.io/posts/2013454d.html</loc>
-    
-    <lastmod>2022-10-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
