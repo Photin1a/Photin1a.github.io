@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>https://photin1a.github.io/posts/d1a2de71.html</loc>
+    
+    <lastmod>2025-01-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://photin1a.github.io/posts/8e38590b.html</loc>
     
     <lastmod>2025-01-11</lastmod>
@@ -263,6 +272,13 @@
   
   <url>
     <loc>https://photin1a.github.io/categories/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2025-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://photin1a.github.io/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/</loc>
     <lastmod>2025-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -33,6 +33,31 @@
     
     
     <entry>
+      <title>Failed to connect to github.com port 443 after 21150 ms, Could not connect to server</title>
+      <link href="/posts/d1a2de71.html"/>
+      <url>/posts/d1a2de71.html</url>
+      
+        <content type="html"><![CDATA[<h1>Failed to connect to <a href="http://github.com">github.com</a> port 443 after 21150 ms: Could not connect to server</h1><p><strong>什么是443端口号？</strong><br><strong>443端口是互联网上所有加密通信的通用端口，也是HTTPS所使用的端口号。</strong> <strong>HTTP 协议使用的是80端口</strong>处理所有入站和出站信息。但问题是 HTTP 协议不安全，因为所有数据都以纯文本形式从一台计算机传输到另一台计算机。</p><p><strong>你的梯子使用的是什么端口号？</strong><br>我的梯子是通过本地127.0.0.1:7890向代理服务器发送请求。也就是说，<strong>我如果想用梯子，我就得用7890端口向外部请求网络服务。</strong></p><hr><p><strong>问题：</strong><br>一般你用梯子设置代理ip端口之后，浏览器就会使用你设置的ip端口。但是git他却没有使用代理端口7890给我传东西，而是继续使用默认的443告诉我超时。<br><strong>解决：</strong><br>我们需要设置git的代理端口也为7890.</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## 方法1（不推荐）：全局设置，针对所有的git访问网址都代理</span></span><br><span class="line"><span class="comment">#使用http代理 </span></span><br><span class="line">git config --global http.proxy http://127.0.0.1:7890</span><br><span class="line">git config --global https.proxy https://127.0.0.1:7890</span><br><span class="line"><span class="comment">#使用socks5代理</span></span><br><span class="line">git config --global http.proxy socks5://127.0.0.1:7890</span><br><span class="line">git config --global https.proxy socks5://127.0.0.1:7890</span><br><span class="line"></span><br><span class="line"><span class="comment">##方法2（推荐）：只对github代理，github只是用http</span></span><br><span class="line"><span class="comment">#使用socks5代理（推荐）</span></span><br><span class="line">git config --global http.https://github.com.proxy socks5://127.0.0.1:7890</span><br><span class="line"><span class="comment">#使用http代理（不推荐）</span></span><br><span class="line">git config --global http.https://github.com.proxy http://127.0.0.1:7890</span><br></pre></td></tr></table></figure><p><strong>查询代理：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global -l</span><br></pre></td></tr></table></figure><p><strong>取消代理：</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global --<span class="built_in">unset</span> http.proxy </span><br><span class="line">git config --global --<span class="built_in">unset</span> https.proxy</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 疑难杂症 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>代码随想录算法训练第四天|24两两交换链表中的节点|19删除链表的倒数第N个节点|面试题02.07链表相交|142环形链表II</title>
       <link href="/posts/8e38590b.html"/>
       <url>/posts/8e38590b.html</url>
